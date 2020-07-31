@@ -34,6 +34,7 @@ def sorted_matrix
   a_sort = assembled_matrix[0].sort
   a_sort2 = assembled_matrix[1].sort
   assembled_matrix_sorted = [asort, a_sort2]
+  assembled_matrix_sorted
 end
 
 def matrix_lookup(matrix, row, column)
