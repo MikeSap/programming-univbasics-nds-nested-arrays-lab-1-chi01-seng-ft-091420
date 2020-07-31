@@ -32,8 +32,9 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
  assembled_matrix_sorted = [
-  assembled_matrix[0].sort!,
-  assembled_matrix[1].sort!]
+ CONVENTIONAL_PRODUCE.sort,
+  ORGANIC_PRODUCE.sort
+  ]
   assembled_matrix_sorted
 end
 
